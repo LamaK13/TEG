@@ -14,6 +14,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<?php wp_head(); ?>
+	<!-- Tailwind CSS Play CDN -->
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body <?php body_class(); ?> <?php generate_do_microdata( 'body' ); ?>>
